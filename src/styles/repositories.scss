@@ -1,0 +1,27 @@
+section.repository-list {
+    h1 {
+        margin-bottom: 16px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 16px;
+
+            a {
+                color: #bd93f9;
+                text-decoration: none;
+                &:hover {
+                    color: #8be9fd;
+                }
+            }
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+}
